@@ -1,13 +1,24 @@
+@font-face {
+  font-family: "Light"; /*Can be any text*/
+  src: local("MonsterClubhouse"),
+    url("./assets/Monster_Clubhouse.ttf") format("truetype");
+}
+* {
+  /*font-family: "Light";*/
+  font-family: "Poppins", sans-serif;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  display: block;
+  max-width: 1400px;
+  width: 95%;
+  margin: auto;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

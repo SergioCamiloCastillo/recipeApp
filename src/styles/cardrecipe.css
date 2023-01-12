@@ -1,0 +1,77 @@
+.card-recipe {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  background: transparent linear-gradient(180deg, #ecf3fb 0%, #fdfeff 100%) 0%;
+  -webkit-box-shadow: 6px 6px 20px 0px rgba(215, 217, 221, 1);
+  -moz-box-shadow: 6px 6px 20px 0px rgba(215, 217, 221, 1);
+  box-shadow: 1px 3px 8px 0px rgb(215 217 221);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+.card-recipe {
+  cursor: pointer;
+}
+.image-card-recipe {
+  width: 164px;
+  height: 158px;
+  margin: auto;
+  margin-top: -34%;
+  border-radius: 100%;
+}
+.first-word-title-recipe {
+  color: #d84a4a;
+  font-size: 30px;
+}
+.description-recipe {
+  transition: opacity 0.5s ease-out;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+
+}
+.box-description-recipe {
+  text-align: center;
+}
+.card-recipe:hover .box-description-recipe {
+  transition: opacity 0.5s ease-out;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+.card-recipe:hover .description-recipe {
+  opacity: 1;
+  height: auto;
+}
+.second-word-title-recipe {
+  color: #d84a4a;
+  font-family: "Light";
+  font-size: 30px;
+}
+.calification {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 15px;
+  margin-top: 10%;
+}
+.calification .icon-start {
+  width: 23px;
+  height: 23px;
+}
+.calification .icon-heart {
+  width: 19px;
+  height: 17px;
+}
+.number-calification {
+  color: #425966;
+  font-size: 26px;
+}
+@media screen and (max-width: 900px) {
+  .card-recipe {
+    width: 100%;
+    margin-bottom: 30%;
+  }
+}

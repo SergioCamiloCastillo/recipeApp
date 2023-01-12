@@ -1,0 +1,29 @@
+.box-new-recipes {
+  padding: 50px 0 160px;
+}
+
+.title {
+  font-family: "Light";
+  color: #d84a4a;
+  font-size: 67px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 6%;
+}
+@media screen and (max-width: 900px) {
+  .content {
+    display: grid;
+    justify-content: center;
+  }
+  .title{
+    margin-bottom: 15%;
+    text-align: center;
+    display: block;
+  }
+  .box-new-recipes {
+    padding: 50px 0 30px;
+  }
+}

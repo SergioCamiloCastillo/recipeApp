@@ -1,0 +1,16 @@
+.description-gray {
+  color: #425966;
+  font-size: 15px;
+  line-height: 12px;
+}
+.title-red {
+  color: #d84a4a;
+  font-family: "Light";
+  font-size: 17px;
+}
+.description-recipe-card {
+  margin-bottom: 13px;
+}
+.mt-4 {
+  margin-top: 20px;
+}
